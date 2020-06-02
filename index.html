@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Social Media Dashboard with Theme Switcher Master</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="column-flex row">
+
+    <div class="column-flex">
+
+      <div class="flex-row row" class="space-btw">
+        <div class="column-flex heading">
+          <h2 class="main-heading">Social Media Dashboard</h2>
+          <p class="small-text desat-blue toptext">Total Followers: 23,004</p>
+        </div>
+        <div class="flex-row resp space-btw">
+          <p class="small-text desat-blue toptext">Dark Mode</p>
+          <p>
+            <label for="toggle" class="switch-label">
+              <input type="checkbox" id="toggle">
+              <span class="switch"></span>
+            </label>
+          </p>
+        </div>
+      </div>
+      
+    
+    </div>
+
+    <div class="flex card-container row">
+
+      <div class="main-card">
+        <span class="facebook-border"></span>
+        <p class="flex-row">
+          <img src="images/icon-facebook.svg" alt="facebook" class="icon">
+          <span class="small-text desat-blue username">@nathanf</span>
+        </p>
+        <h1 class="big-number">1987</h1>
+        <p class="small-text spaced">Followers</p>
+        <p class="small-text green sub-num"> &#9652; 12 Today</p>
+      </div>
+      
+      <div class="main-card">
+        <span class="twitter-border"></span>
+        <p class="flex-row">
+          <img src="images/icon-twitter.svg" alt="twitter" class="icon">
+          <span class="small-text desat-blue username">@nathanf</span>
+        </p>
+        <h1 class="big-number">1044</h1>
+        <p class="small-text spaced">Followers</p>
+        <p class="small-text green sub-num"> &#9652; 99 Today</p>
+      </div>
+      
+      <div class="main-card">
+        <span class="instagram-border"></span>
+        <p class="flex-row">
+          <img src="images/icon-instagram.svg" alt="instagram" class="icon">
+          <span class="small-text desat-blue username">@realnathanf</span>
+        </p>
+        <h1 class="big-number">11k</h1>
+        <p class="small-text spaced">Followers</p>
+        <p class="small-text green sub-num"> &#9652; 1099 Today</p>
+      </div>
+    
+      <div class="main-card">
+        <span class="youtube-border"></span>
+        <p class="flex-row">
+          <img src="images/icon-youtube.svg" alt="youtube" class="icon">
+          <span class="small-text desat-blue username">NathanF.</span>
+        </p>
+        <h1 class="big-number">8239</h1>
+        <p class="small-text spaced">Subscribers</p>
+        <p class="small-text red sub-num"> &#9662; 144 Today</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column-flex">
+    <div class="heading">
+      <h2 class="main-heading">Overview - Today</h2>
+    </div>
+
+    <div class="flex-row card-container overview-main">
+      <div class="main-card overview-container">
+        <div class="flex-row overview">
+          <p class="small-text desat-blue ">Page Views</p>
+          <p><img src="images/icon-facebook.svg" alt="facebook" class="icon"></p>
+        </div>
+          <div class="flex-row overview">
+            <h2 class="small-number">87</h2>
+            <p class="small-text green bottomtext">&#9652; 3%</p>
+          </div>
+      </div>
+
+      <div class="main-card overview-container">
+        <div class="flex-row overview">
+          <p class="small-text desat-blue ">Likes</p>
+          <p><img src="images/icon-facebook.svg" alt="facebook" class="icon"></p>
+        </div>
+          <div class="flex-row overview">
+            <h2 class="small-number">52</h2>
+            <p class="small-text red bottomtext">&#9662; 2%</p>
+          </div>
+      </div>
+      
+      <div class="main-card overview-container">
+        <div class="flex-row overview">
+          <p class="small-text desat-blue">Likes</p>
+          <p><img src="images/icon-instagram.svg" alt="instagram" class="icon"></p>
+        </div>
+          <div class="flex-row overview">
+            <h2 class="small-number">5462</h2>
+            <p class="small-text green bottomtext">&#9652; 2257%</p>
+          </div>
+      </div>
+      
+      <div class="main-card overview-container">
+        <div class="flex-row overview">
+          <p class="small-text desat-blue">Profile Views</p>
+          <p><img src="images/icon-instagram.svg" alt="instagram" class="icon"></p>
+        </div>
+          <div class="flex-row overview">
+            <h2 class="small-number">52k</h2>
+            <p class="small-text green bottomtext">&#9652; 1375%</p>
+          </div>
+      </div>
+      
+      <div class="main-card overview-container">
+        <div class="flex-row overview">
+          <p class="small-text desat-blue">Retweets</p>
+          <p><img src="images/icon-twitter.svg" alt="twitter" class="icon"></p>
+        </div>
+          <div class="flex-row overview">
+            <h2 class="small-number">117</h2>
+            <p class="small-text green bottomtext">&#9652; 303%</p>
+          </div>
+      </div>
+      
+      <div class="main-card overview-container">
+        <div class="flex-row overview">
+          <p class="small-text desat-blue">Likes</p>
+          <p><img src="images/icon-twitter.svg" alt="twitter" class="icon"></p>
+        </div>
+          <div class="flex-row overview">
+            <h2 class="small-number">507</h2>
+            <p class="small-text green bottomtext">&#9652; 553%</p>
+          </div>
+      </div>
+      
+      <div class="main-card overview-container">
+        <div class="flex-row overview">
+          <p class="small-text desat-blue">Likes</p>
+          <p><img src="images/icon-youtube.svg" alt="youtube class="icon"></p>
+        </div>
+          <div class="flex-row overview">
+            <h2 class="small-number">107</h2>
+            <p class="small-text red bottomtext">&#9662; 19%</p>
+          </div>
+      </div>
+      
+      <div class="main-card overview-container">
+        <div class="flex-row overview">
+          <p class="small-text desat-blue">Total Views</p>
+          <p><img src="images/icon-youtube.svg" alt="youtube class="icon"></p>
+        </div>
+          <div class="flex-row overview">
+            <h2 class="small-number">1407</h2>
+            <p class="small-text red bottomtext">&#9662; 12%</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Rasheed Ibraheem [ARIB]</a>.
+  </div>
+
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
